@@ -60,8 +60,10 @@ $ npm run test:cov
 
 Try : 
 
-#terminal(curl http://localhost:7000/items/)
+```bash
+$ curl http://localhost:7000/items/
 
-#terminal(curl http://localhost:7000/items/1)
+$ curl http://localhost:7000/items/1
+```
 
 Nest is [MIT licensed](LICENSE).
